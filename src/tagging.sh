@@ -1,8 +1,8 @@
 #! /bin/bash
 
 token=$1
-repo_owner="azohra"
-repo_name="shell-linter"
+repo_owner="Tumiya"
+repo_name="shell-linter-using-shellcheck"
 tag_name="latest"
 commit_sha=$(git log -n1 --format=format:"%H")
 

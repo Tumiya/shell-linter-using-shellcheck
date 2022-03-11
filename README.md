@@ -79,7 +79,7 @@ To exclude a folder and it's content recursively just provide the path of the fo
           severity: "error"
           exclude-issues: "SC1068,SC1066"
 ```
-Note that `exclude-issues` contains a list of issues to ignore (example: "SC1068") comma-separated without any spaces.
+Note that `exclude-issues` contains a comma-separated list of ShellCheck issues (example: "SC1068") to ignore.
 
 #### Run analysis by using a specific version of Shell Linter:
 ```yml
